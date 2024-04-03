@@ -131,8 +131,11 @@ MEDIA_URL_ = "/image"
 MEDIA_ROOT = BASE_DIR/"media"
 
 # crispy form and bootstrapp installation 
-CRISPY_TEMPLATE_PACK = 'boostrap4'
-CRISPY_ALLOWED_TEMPLATE_PACKS = 'boostrap4'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap4'
+
+LOGIN_REDIRECT_URL ='home'
+LOGIN_URL = 'login'
 
 
 # Default primary key field type

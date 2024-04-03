@@ -1,4 +1,4 @@
-{% extends "vall_app/template/vall_app/main.html" %}
+{% extends "vall_app/templates/vall_app/main.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
     
@@ -14,6 +14,7 @@
                     </div>
                   
                 <!--print out the form created in your views-->
+                
                 <!--add also a paragraph form(.as_p)-->
                 {{ form|crispy }}
             </fieldset>
